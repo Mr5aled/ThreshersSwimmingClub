@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/edt_pass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Password" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radio_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:layout_marginRight="10dp" />
+
+        <RadioButton
+            android:id="@+id/radio_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#C72736"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"/>
+
+</RelativeLayout>

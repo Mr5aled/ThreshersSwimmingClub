@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    tools:context=".RegStudent_18f18052">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Register Student"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Student Details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtID_52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter ID" />
+
+    <EditText
+        android:id="@+id/edtName_52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Name" />
+
+
+    <EditText
+        android:id="@+id/edtAge_52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Age" />
+
+    <EditText
+        android:id="@+id/edtSLevel_52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Swim Level" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp">
+
+        <Button
+            android:id="@+id/btnAdd_52"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:text="Add"
+            android:backgroundTint="#C72736"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="435dp">
+
+        <Button
+            android:id="@+id/btnUpdate_52"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Update"
+            android:backgroundTint="#C72736"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnView_52"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="View"
+            android:backgroundTint="#C72736"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/btnDelete_52"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Delete"
+            android:backgroundTint="#C72736"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Clear"
+            android:backgroundTint="#C72736"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+</RelativeLayout>

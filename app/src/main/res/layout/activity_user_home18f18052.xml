@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homep1"
+    tools:context=".UserHome_18f18052">
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Home Page"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_AboutUs"
+        android:text="About Us"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#C72736"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_FindUs"
+        android:text="Find Us"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#C72736"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_ContactUs"
+        android:text="Contact us"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#C72736"
+        android:shadowColor="#C72736"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
